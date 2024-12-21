@@ -11,7 +11,7 @@ func (c *Client) CreateCompletion(ctx context.Context, prompt string) (string, e
 		Messages: openai.F([]openai.ChatCompletionMessageParamUnion{
 			openai.UserMessage(prompt),
 		}),
-		Model: openai.F(openai.ChatModelGPT4o),
+		Model: openai.F(openai.ChatModelGPT4o2024_11_20),
 	})
 	if err != nil {
 		return "", err
