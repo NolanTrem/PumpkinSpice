@@ -1,5 +1,4 @@
-// internal/ai/chat.go
-package ai
+package oai
 
 import (
 	"context"
