@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "spice-simulation-server"
+version = "0.1.0"
+description = "A Flask server for running SPICE simulations"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0"
+gunicorn = "^21.0"
+
+[build-system]
+requires = ["poetry>=1.3.2"]
+build-backend = "poetry.core.masonry.api"
